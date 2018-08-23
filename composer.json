@@ -1,0 +1,34 @@
+{
+    "name": "SobolAndrej/sender",
+    "type": "library",
+    "description": "Sender Layer for MessageBird library",
+    "keywords": ["sender", "send-sms", "sms"],
+    "homepage": "https://github.com/SobolAndrej",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Andrej Sobol",
+          "email": "andrew.v.sobol@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Sender\\": "src/Sender"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Sender\\Tests\\": "tests/Sender"}
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "messagebird/php-rest-api": "1.10.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*"
+    },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "master"
+        }
+    }
+}

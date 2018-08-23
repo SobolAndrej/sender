@@ -1,0 +1,6 @@
+.DS_Store
+composer.lock
+/.idea/
+vendor
+example/config.php
+example/time.txt

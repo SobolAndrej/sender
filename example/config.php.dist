@@ -1,0 +1,7 @@
+<?php
+
+const API_KEY = "xXxXx";
+
+const FROM = 'xXxXx';
+const TO = ['xXxXx'];
+const MESSAGE = 'xXxXx';
